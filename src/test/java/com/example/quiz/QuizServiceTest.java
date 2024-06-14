@@ -110,6 +110,7 @@ public class QuizServiceTest {
 	public void test1() {
 		List<Quiz> res = quizDao.selectAll();
 		System.out.println(res.size());
+		System.out.println("------------------------------------");
 	}
 	
 
